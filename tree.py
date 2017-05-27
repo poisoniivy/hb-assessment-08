@@ -99,7 +99,7 @@ class Tree(object):
 
             to_visit.extend(node.children)
 
-        return False
+        return None
 
 
 if __name__ == "__main__":

@@ -1,0 +1,58 @@
+Part 1
+
+Runtime
+1. For a box of animal crackers, the tasks included are 1) going through 
+the box of crackers and then 2) comparing each cracker to see if it's an 
+elephant. The workload would be those two stpes and dependent on the number
+of cookies thare in the box.
+
+2. Runtime Orders
+O(1)
+O(log n)
+O(n)
+O(n log n)
+O(n^2)
+O(2^n)
+
+
+Stacks and Queues
+
+1: STACK - The process of loading and unloading pallets onto a flatbed truck
+2: QUEUE - Putting bottle caps on bottles of beer as they roll down an assembly line
+3: STACK - Calculating the solution to this mathematical expression: 2 + (7 * 4) - (3 / 2)
+
+Describe two more situations where a queue would be an appropriate data structure.
+1. Picking up ticket numbers at a deli and getting your order based on the number.
+2. Cars driving through a toll booth.
+
+Describe two more situations where a stack would be an appropriate data structure.
+1. Folding clothes and putting them in a pile, then picking from top to wear
+2. Baby stacking cups. Smaller cups only fit into bigger cups.
+
+Linked Lists
+
+1. Nodes:
+The nodes are "Apple", "Berry", and "Cherry" as they have a data part and also a next pointer part. 
+Apple Node has "Apple" data and points to "Berry".
+Berry Node has "Berry" data and points to "Cherry"
+Cherry Node has "Cherry" data
+
+The head is the "Apple" node. The LinkedList head is pointing to the "Apple" node. and the tail is the "Cherry" node as the node's pointer is pointing to None.
+
+2. What’s the difference between doubly- and singly-linked lists?
+A singly linked list has a "data" part and a "next" pointer part. A doubly-linked list has both a "next" pointer and a "parent"/"previous" pointer so it can traverse backwards as well.
+
+
+3. Why is it faster to append to a linked list if we keep track of the tail as an attribute?
+If the tail is kept track of, then the new Node can be added by just pointing the last Node to the new Node and the tail pointer to the new Node. This is a runtion of O(1). The runtime would be O(n) without the tail pointer as we would need to traverse through the whole list in order to find the tail end.
+
+Trees
+
+(BFS)
+food -> Italian -> Indian -> Mexian -> lasagna -> pizza -> tikka masala -> saag -> burritos
+
+(DFS)
+food -> Mexican -> echiladas -> tacos -> burritos -> Indian -> saag -> tikka masala -> Italian -> pizza -> Sicilian -> New York-style -> Chicago-style
+
+How is a binary search tree different from other trees?
+A Binary search tree only has two children, a left and right child. When adding to the tree, usually there are rules of how to add nodes compared to the parent node. This helps with faster searching.
